@@ -1,0 +1,49 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #fffdd4;
+}
+/* NAV, HEADER AND HERO */
+.nav-height {
+  height: 5rem;
+}
+.nav-logo {
+  height: 5rem;
+}
+.nav-logo img {
+  width: 30rem;
+  height: 100%;
+}
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(https://i.ibb.co/CmGMSNF/hero.jpg);
+  height: 50rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+.hero-text {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+.hero-text h2 {
+  max-width: 50rem;
+  font-size: 5rem;
+}
+.hero {
+  display: none;
+}
+.header {
+  display: block;
+}
+@media (min-width: 768px) {
+  .hero {
+    display: block;
+  }
+  .header {
+    display: none;
+  }
+}
