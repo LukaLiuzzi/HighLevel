@@ -9,6 +9,8 @@ html {
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 body {
@@ -46,5 +48,34 @@ h3 {
 
 li {
   list-style: none;
+}
+
+.hero {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(https://i.ibb.co/CmGMSNF/hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://i.ibb.co/CmGMSNF/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 50rem;
+  position: relative;
+}
+
+.hero .hero-text {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  color: #EE964B;
+  max-width: 50rem;
+}
+
+.nav-styles {
+  height: 5rem;
+}
+
+.header-logo img {
+  width: 30rem;
+  height: 100%;
+  -webkit-filter: drop-shadow(1px 1px 0px #1a1b15);
+          filter: drop-shadow(1px 1px 0px #1a1b15);
 }
 /*# sourceMappingURL=app.css.map */
