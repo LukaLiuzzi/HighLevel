@@ -1,0 +1,12 @@
+.footer {
+    border-top: 2px solid black;
+
+    .footer-logo img {
+        width: 20rem;
+
+        filter: drop-shadow(1px 1px 0px black);
+    }
+    .fab {
+        font-size: 4rem;
+    }
+}

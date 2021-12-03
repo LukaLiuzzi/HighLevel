@@ -9,8 +9,6 @@ html {
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
-  margin: 0 !important;
-  padding: 0 !important;
 }
 
 body {
@@ -77,5 +75,33 @@ li {
   height: 100%;
   -webkit-filter: drop-shadow(1px 1px 0px #1a1b15);
           filter: drop-shadow(1px 1px 0px #1a1b15);
+}
+
+.footer {
+  border-top: 2px solid black;
+}
+
+.footer .footer-logo img {
+  width: 20rem;
+  -webkit-filter: drop-shadow(1px 1px 0px black);
+          filter: drop-shadow(1px 1px 0px black);
+}
+
+.footer .fab {
+  font-size: 4rem;
+}
+
+.card {
+  -webkit-box-shadow: 0 0 5px 1px #1a1b15;
+          box-shadow: 0 0 5px 1px #1a1b15;
+  border-radius: 10px;
+}
+
+.card img {
+  border-radius: 10px 10px 3px 3px;
+}
+
+.card-img-catalogue {
+  height: 40rem;
 }
 /*# sourceMappingURL=app.css.map */
