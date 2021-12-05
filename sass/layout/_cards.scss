@@ -10,6 +10,11 @@
 .card-img-catalogue {
     height: 40rem;
 }
-.cars .card img {
+.cars .card .car-img {
     height: 280px;
+}
+.pickups .card .pickup-img {
+    @include big {
+        height: 340px!important;
+    }
 }

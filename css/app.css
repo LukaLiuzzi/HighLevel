@@ -105,7 +105,13 @@ li {
   height: 40rem;
 }
 
-.cars .card img {
+.cars .card .car-img {
   height: 280px;
+}
+
+@media (min-width: 1200px) {
+  .pickups .card .pickup-img {
+    height: 340px !important;
+  }
 }
 /*# sourceMappingURL=app.css.map */
