@@ -6,9 +6,11 @@
         border-radius: 10px 10px 3px 3px;
     }
 }
-
-.card-img-catalogue {
-    height: 40rem;
+.why-we .card img, .card-img-catalogue {
+    height: 20rem;
+    @include tablet {
+        height: 30rem;
+    }
 }
 .cars .card .car-img {
     height: 280px;
