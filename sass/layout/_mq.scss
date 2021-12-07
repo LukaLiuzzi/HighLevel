@@ -1,0 +1,32 @@
+.hero {
+  @include tablet-desktop {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(https://i.ibb.co/CmGMSNF/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height: 50rem;
+
+    position: relative;
+  }
+  .hero-text {
+    @include tablet-desktop {
+      position: absolute;
+      top: 30%;
+      left: 15%;
+
+      color: $sandy-brown;
+
+      max-width: 50rem;
+
+      display: block;
+    }
+  }
+
+  .no-bg {
+    @include tablet-desktop {
+      background: none !important;
+    }
+  }
+}

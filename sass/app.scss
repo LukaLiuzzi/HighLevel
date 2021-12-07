@@ -1,12 +1,10 @@
-@import 'base/variables';
-@import 'base/mixins';
-@import 'base/globales';
+@import "base/variables";
+@import "base/mixins";
+@import "base/globales";
 
-
-@import 'layout/header';
-@import 'layout/footer';
-@import 'layout/cards';
-@import 'layout/index';
-@import 'layout/contact';
-@import 'layout/mq';
-@import 'layout/animations';
+@import "layout/header";
+@import "layout/footer";
+@import "layout/cards";
+@import "layout/contact";
+@import "layout/mq";
+@import "layout/animations";
