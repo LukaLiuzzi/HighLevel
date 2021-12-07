@@ -141,4 +141,226 @@ li {
   width: 100%;
   height: 40rem;
 }
+
+@-webkit-keyframes dispel {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes dispel {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes entry {
+  0% {
+    -webkit-transform: translate(-100vh, -200px) rotate(180deg);
+            transform: translate(-100vh, -200px) rotate(180deg);
+  }
+  50% {
+    -webkit-transform: translate(0) rotate(-20deg);
+            transform: translate(0) rotate(-20deg);
+  }
+  70% {
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+  }
+  90% {
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+  }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+}
+
+@keyframes entry {
+  0% {
+    -webkit-transform: translate(-100vh, -200px) rotate(180deg);
+            transform: translate(-100vh, -200px) rotate(180deg);
+  }
+  50% {
+    -webkit-transform: translate(0) rotate(-20deg);
+            transform: translate(0) rotate(-20deg);
+  }
+  70% {
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+  }
+  90% {
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+  }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+}
+
+@-webkit-keyframes slideinright {
+  from {
+    -webkit-transform: translateX(-100vh);
+            transform: translateX(-100vh);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes slideinright {
+  from {
+    -webkit-transform: translateX(-100vh);
+            transform: translateX(-100vh);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes slideinleft {
+  from {
+    -webkit-transform: translateX(100vh);
+            transform: translateX(100vh);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes slideinleft {
+  from {
+    -webkit-transform: translateX(100vh);
+            transform: translateX(100vh);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes slideinup {
+  from {
+    -webkit-transform: translateY(100vh);
+            transform: translateY(100vh);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes slideinup {
+  from {
+    -webkit-transform: translateY(100vh);
+            transform: translateY(100vh);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes floating {
+  from {
+    -webkit-transform: translate(0, 0px);
+            transform: translate(0, 0px);
+  }
+  65% {
+    -webkit-transform: translate(0, 10px);
+            transform: translate(0, 10px);
+  }
+  to {
+    -webkit-transform: translate(0, 0px);
+            transform: translate(0, 0px);
+  }
+}
+
+@keyframes floating {
+  from {
+    -webkit-transform: translate(0, 0px);
+            transform: translate(0, 0px);
+  }
+  65% {
+    -webkit-transform: translate(0, 10px);
+            transform: translate(0, 10px);
+  }
+  to {
+    -webkit-transform: translate(0, 0px);
+            transform: translate(0, 0px);
+  }
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+  to {
+    -webkit-transform: translateY(0deg);
+            transform: translateY(0deg);
+  }
+}
+
+@keyframes rotate {
+  from {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+  to {
+    -webkit-transform: translateY(0deg);
+            transform: translateY(0deg);
+  }
+}
+
+.hero-text {
+  -webkit-animation: entry 2s;
+          animation: entry 2s;
+}
+
+.why-we .dispel {
+  -webkit-animation: dispel 2s;
+          animation: dispel 2s;
+}
+
+.why-we .slideinright {
+  -webkit-animation: slideinright 1s;
+          animation: slideinright 1s;
+}
+
+.why-we .slideinleft {
+  -webkit-animation: slideinleft 1s;
+          animation: slideinleft 1s;
+}
+
+.why-we .slideinup {
+  -webkit-animation: slideinup 1s;
+          animation: slideinup 1s;
+}
+
+.catalogue .card:hover {
+  -webkit-animation: floating 1s infinite;
+          animation: floating 1s infinite;
+}
+
+.cars .card img {
+  -webkit-animation: rotate 1s;
+          animation: rotate 1s;
+}
+
+.pickups .card img {
+  -webkit-animation: rotate 1s;
+          animation: rotate 1s;
+}
 /*# sourceMappingURL=app.css.map */
