@@ -1,22 +1,25 @@
 .card {
-    box-shadow: 0 0 5px 1px $black;
-    border-radius: 10px;
+  box-shadow: 0 0 5px 1px $black;
+  border-radius: 10px;
 
-    img {
-        border-radius: 10px 10px 3px 3px;
-    }
+  background-color: $bg;
+
+  img {
+    border-radius: 10px 10px 3px 3px;
+  }
 }
-.why-we .card img, .card-img-catalogue {
-    height: 20rem;
-    @include tablet {
-        height: 30rem;
-    }
+.why-we .card img,
+.card-img-catalogue {
+  height: 20rem;
+  @include tablet {
+    height: 30rem;
+  }
 }
 .cars .card .car-img {
-    height: 280px;
+  height: 280px;
 }
 .pickups .card .pickup-img {
-    @include big {
-        height: 340px!important;
-    }
+  @include big {
+    height: 340px !important;
+  }
 }

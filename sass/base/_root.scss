@@ -13,7 +13,7 @@ body {
   background-color: $bg;
 }
 p {
-  color: $prussian-blue;
+  color: $black;
   font-size: 2rem;
 }
 
@@ -25,7 +25,7 @@ h1,
 h2,
 h3 {
   font-weight: 900;
-  color: $black;
+  color: $secondary;
   text-align: center;
 }
 
@@ -34,6 +34,7 @@ h1 {
 }
 h2 {
   font-size: 3.6rem;
+  color: $prussian-blue;
 }
 h3 {
   font-size: 3rem;

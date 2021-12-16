@@ -16,7 +16,7 @@
       top: 30%;
       left: 15%;
 
-      color: $sandy-brown;
+      color: $primary;
 
       max-width: 50rem;
 
@@ -27,6 +27,19 @@
   .no-bg {
     @include tablet-desktop {
       background: none !important;
+    }
+  }
+  .nav-link {
+    @include tablet-desktop {
+      color: $primary;
+    }
+  }
+}
+
+.nav-link {
+  @include tablet-desktop {
+    &:hover {
+      color: $bg;
     }
   }
 }

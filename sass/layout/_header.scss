@@ -4,6 +4,18 @@
   .hero-text {
     display: none;
   }
+
+  .nav-link {
+    color: $black;
+  }
+}
+
+.header-mobile {
+  background-color: $primary;
+}
+
+.nav-link {
+  color: $black;
 }
 
 .nav-styles {
@@ -18,5 +30,8 @@
 }
 
 .active {
-  color: #e6530d;
+  color: #e6530d !important;
+}
+.navbar-toggler {
+  background-color: $secondary;
 }

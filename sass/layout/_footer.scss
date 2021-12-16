@@ -1,12 +1,33 @@
 .footer {
-    border-top: 2px solid black;
+  border-top: 2px solid black;
 
-    .footer-logo img {
-        width: 20rem;
+  background-color: $primary;
 
-        filter: drop-shadow(1px 1px 0px black);
-    }
-    .fab {
-        font-size: 4rem;
-    }
+  .footer-logo img {
+    width: 20rem;
+
+    filter: drop-shadow(1px 1px 0px black);
+  }
+
+  h3 {
+    text-transform: uppercase;
+  }
+
+  li a {
+    color: $black;
+  }
+
+  .fab {
+    font-size: 4rem;
+  }
+
+  .fa-instagram {
+    color: rgba(221, 15, 77, 0.644);
+  }
+  .fa-twitter {
+    color: $medium-turquoise;
+  }
+  .fa-facebook {
+    color: $prussian-blue;
+  }
 }

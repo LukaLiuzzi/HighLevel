@@ -1,6 +1,6 @@
 // Base
-@import "../bootstrap/scss/bootstrap.scss";
 @import "base/variables";
+@import "../bootstrap/scss/bootstrap.scss";
 @import "base/mixins";
 @import "base/root";
 
@@ -8,6 +8,6 @@
 @import "layout/header";
 @import "layout/footer";
 @import "layout/cards";
-@import "layout/contact";
+@import "layout/mainSections";
 @import "layout/mq";
 @import "layout/animations";
