@@ -1,41 +1,14 @@
 .hero {
   @include tablet-desktop {
-    // background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    //   url(https://i.ibb.co/CmGMSNF/hero.jpg);
-    // background-size: cover;
-    // background-repeat: no-repeat;
-    // background-position: center center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(https://i.ibb.co/CmGMSNF/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 
     height: 50rem;
 
     position: relative;
-  }
-  .overlay {
-    display: none;
-    @include tablet-desktop {
-      width: 100%;
-      height: 100%;
-
-      position: absolute;
-
-      background: rgba(0, 0, 0, 0.5);
-      display: block;
-    }
-  }
-  .video {
-    display: none;
-    z-index: -1;
-
-    @include tablet-desktop {
-      height: 50rem;
-      width: 100%;
-
-      object-fit: cover;
-      object-position: center center;
-      position: absolute;
-
-      display: block;
-    }
   }
   .hero-text {
     @include tablet-desktop {
