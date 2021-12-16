@@ -1,7 +1,10 @@
+// Base
+@import "../bootstrap/scss/bootstrap.scss";
 @import "base/variables";
 @import "base/mixins";
-@import "base/globales";
+@import "base/root";
 
+// Layout
 @import "layout/header";
 @import "layout/footer";
 @import "layout/cards";
