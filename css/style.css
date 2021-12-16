@@ -7850,6 +7850,9 @@ h3, .h3 {
 li {
   list-style: none; }
 
+img {
+  object-fit: cover; }
+
 .hero {
   background: none; }
   .hero .hero-text {
@@ -7877,6 +7880,15 @@ li {
 .navbar-toggler {
   background-color: #c83e4d; }
 
+.dark-mode-container {
+  text-align: end;
+  flex-grow: 1;
+  margin-right: 4rem; }
+
+.dark-mode-button {
+  font-size: 2.5rem;
+  color: #1a1b15; }
+
 .footer {
   border-top: 2px solid black;
   background-color: #ee964b; }
@@ -7900,6 +7912,8 @@ li {
   box-shadow: 0 0 5px 1px #1a1b15;
   border-radius: 10px;
   background-color: #fffdd4; }
+  .card a {
+    color: #c83e4d; }
   .card img {
     border-radius: 10px 10px 3px 3px; }
 
@@ -7921,11 +7935,13 @@ li {
 .form {
   max-width: 50rem;
   margin: 0 auto;
-  border-radius: 1rem; }
+  border-radius: 1rem;
+  background-color: #c83e4d; }
   .form textarea {
     height: 20rem; }
   .form button {
-    height: 4rem; }
+    height: 4rem;
+    background-color: #59a09c; }
 
 .map iframe {
   border: 1px solid #a09c9c;
@@ -7961,6 +7977,15 @@ li {
 
 @media (min-width: 992px) {
   .nav-link:hover {
+    color: #fffdd4; } }
+
+@media (min-width: 992px) {
+  .dark-mode-container {
+    width: 100%;
+    margin: 0; } }
+
+@media (min-width: 992px) {
+  .dark-mode-container .dark-mode-button {
     color: #fffdd4; } }
 
 @keyframes dispel {
@@ -8036,3 +8061,28 @@ li {
 
 .pickups .card img {
   animation: rotate 1s; }
+
+.dark-mode {
+  background-color: #353535; }
+  .dark-mode h2, .dark-mode .h2 {
+    color: #a9cfcd; }
+  .dark-mode p {
+    color: #ffffff; }
+    .dark-mode p a {
+      color: #1a1b15; }
+  .dark-mode .header-mobile {
+    background-color: #615f5f; }
+  .dark-mode .card {
+    background-color: #615f5f; }
+  .dark-mode .footer {
+    background-color: #615f5f; }
+    .dark-mode .footer li {
+      color: #ffffff; }
+      .dark-mode .footer li a {
+        color: #ffffff; }
+  .dark-mode .information li {
+    color: #ffffff; }
+  .dark-mode .form-section form {
+    background-color: #615f5f; }
+  .dark-mode .contact {
+    color: #59a09c; }

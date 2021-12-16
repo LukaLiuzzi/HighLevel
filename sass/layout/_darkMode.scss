@@ -1,0 +1,45 @@
+.dark-mode {
+  background-color: $dark-gray;
+
+  h2 {
+    color: lighten($medium-turquoise, 25);
+  }
+  p {
+    color: $white;
+    a {
+      color: $black;
+    }
+  }
+
+  .header-mobile {
+    background-color: $gray;
+  }
+
+  .card {
+    background-color: $gray;
+  }
+
+  .footer {
+    background-color: $gray;
+
+    li {
+      color: $white;
+
+      a {
+        color: $white;
+      }
+    }
+  }
+
+  .information li {
+    color: $white;
+  }
+
+  .form-section form {
+    background-color: $gray;
+  }
+
+  .contact {
+    color: $medium-turquoise;
+  }
+}

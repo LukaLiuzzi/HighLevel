@@ -1,8 +1,12 @@
 // Contact
 .form {
   max-width: 50rem;
+
   margin: 0 auto;
+
   border-radius: 1rem;
+
+  background-color: $secondary;
 
   textarea {
     height: 20rem;
@@ -10,6 +14,8 @@
 
   button {
     height: 4rem;
+
+    background-color: $medium-turquoise;
   }
 }
 .map iframe {
