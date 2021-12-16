@@ -7853,14 +7853,17 @@ li {
   background: none; }
   .hero .hero-text {
     display: none; }
-  .hero .nav-styles {
-    height: 5rem; }
-  .hero .header-logo img {
-    width: 30rem;
-    height: 100%;
-    filter: drop-shadow(1px 1px 0px #1a1b15); }
-  .hero .active {
-    color: #e6530d; }
+
+.nav-styles {
+  height: 5rem; }
+
+.header-logo img {
+  width: 30rem;
+  height: 100%;
+  filter: drop-shadow(1px 1px 0px #1a1b15); }
+
+.active {
+  color: #e6530d; }
 
 .footer {
   border-top: 2px solid black; }
