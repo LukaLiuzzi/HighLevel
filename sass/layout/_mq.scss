@@ -36,6 +36,12 @@
   }
 }
 
+.navbar-toggler {
+  @media (min-width: 440px) {
+    margin: 0 3rem 0 0;
+  }
+}
+
 .nav-link {
   @include tablet-desktop {
     &:hover {

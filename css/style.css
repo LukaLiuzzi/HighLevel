@@ -70,17 +70,23 @@ img {
   color: #e6530d !important; }
 
 .navbar-toggler {
-  background-color: #c83e4d; }
+  background-color: #c83e4d;
+  margin: 1rem auto; }
+  .navbar-toggler i {
+    padding: 5px;
+    color: #1a1b15; }
 
 .dark-mode-container {
   text-align: end;
   flex-grow: 1;
-  margin-right: 4rem; }
+  margin-right: 4rem;
+  display: flex; }
 
 .dark-mode-button {
   font-size: 2.5rem;
   color: #1a1b15;
-  cursor: pointer; }
+  cursor: pointer;
+  flex-grow: 1; }
 
 .footer {
   border-top: 2px solid black;
@@ -168,6 +174,10 @@ img {
 @media (min-width: 992px) {
   .hero .nav-link {
     color: #ee964b; } }
+
+@media (min-width: 440px) {
+  .navbar-toggler {
+    margin: 0 3rem 0 0; } }
 
 @media (min-width: 992px) {
   .nav-link:hover {
