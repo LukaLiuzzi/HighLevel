@@ -2,7 +2,17 @@
 /** Media Queries **/
 html {
   font-size: 62.5%;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth; }
+  html::-webkit-scrollbar {
+    width: 10px; }
+  html::-webkit-scrollbar-thumb {
+    background: #ee964b;
+    border-radius: 20px; }
+  html::-webkit-scrollbar-track {
+    background: #f7d5a9;
+    border-radius: 20px; }
 
 *,
 *:before,
@@ -290,3 +300,14 @@ img {
     background-color: #615f5f; }
   .dark-mode .contact {
     color: #59a09c; }
+
+.dark-mode-scrollbar::-webkit-scrollbar {
+  width: 10px; }
+
+.dark-mode-scrollbar::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 20px; }
+
+.dark-mode-scrollbar::-webkit-scrollbar-track {
+  background: #222;
+  border-radius: 20px; }
