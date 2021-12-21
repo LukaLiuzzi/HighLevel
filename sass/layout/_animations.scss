@@ -1,103 +1,103 @@
 @keyframes dispel {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 @keyframes entry {
-    0% {
-        transform: translate(-100vh, -200px) rotate(180deg);
-    }
-    50% {
-        transform: translate(0) rotate(-20deg);
-    }
-    70% {
-        transform: rotate(20deg);
-    }
-    90% {
-        transform: rotate(-20deg);
-    }
-    100% {
-        transform: rotate(0);
-    }
+  0% {
+    transform: translate(-100vh, -200px) rotate(180deg);
+  }
+  50% {
+    transform: translate(0) rotate(-20deg);
+  }
+  70% {
+    transform: rotate(20deg);
+  }
+  90% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
 }
 @keyframes slideinright {
-    from {
-        transform: translateX(-100vh);
-        }
+  from {
+    transform: translateX(-100vh);
+  }
 
-        to {
-            transform: translateX(0);
-        }
+  to {
+    transform: translateX(0);
+  }
 }
 @keyframes slideinleft {
-    from {
-        transform: translateX(100vh);
-        }
+  from {
+    transform: translateX(100vh);
+  }
 
-        to {
-            transform: translateX(0);
-        }
+  to {
+    transform: translateX(0);
+  }
 }
 @keyframes slideinup {
-    from {
-        transform: translateY(100vh);
-        }
+  from {
+    transform: translateY(100vh);
+  }
 
-        to {
-            transform: translateX(0);
-        }
+  to {
+    transform: translateX(0);
+  }
 }
 @keyframes floating {
-    from {
-        transform: translate(0, 0px); 
-    }
-    65% {
-        transform: translate(0, 10px); }
-    to {
-        transform: translate(0, 0px);
-    }
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 10px);
+  }
+  to {
+    transform: translate(0, 0px);
+  }
 }
 @keyframes rotate {
-    from {
-        transform: rotateY(180deg); 
-    }
-    to {
-        transform: translateY(0deg);
-    }
+  from {
+    transform: rotateY(180deg);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
-
 
 .hero-text {
-    animation: entry 2s;
+  animation: entry 2s;
 }
 .why-we {
-    .dispel {
-        animation: dispel 2s;
-    }
+  .dispel {
+    animation: dispel 2s;
+  }
 
-    .slideinright {
-        animation: slideinright 1s;
-    }
+  .slideinright {
+    animation: slideinright 1s;
+  }
 
-    .slideinleft {
-        animation: slideinleft 1s;
-    }
+  .slideinleft {
+    animation: slideinleft 1s;
+  }
 
-    .slideinup {
-        animation: slideinup 1s;
-    }
+  .slideinup {
+    animation: slideinup 1s;
+  }
 }
 
 .catalogue .card:hover {
-    animation: floating 1s infinite;
+  animation: floating 1s infinite;
 }
 
 .cars .card img {
-    animation: rotate 1s;
+  animation: rotate 1s;
 }
 .pickups .card img {
-    animation: rotate 1s;
+  animation: rotate 1s;
 }

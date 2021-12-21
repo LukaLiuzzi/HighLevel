@@ -4,6 +4,8 @@ Cambie los titulos de todos los html.
 
 Agregue la tag H6 a los enlaces del footer.
 
+Agregue el favicon a todos los html.
+
 
 Sass:
 Declare un map en variables.scss y lo utilice en footer.scss con un each.
