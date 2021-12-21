@@ -1,5 +1,63 @@
 @import url("http://fonts.cdnfonts.com/css/sf-pro-display");
 /** Media Queries **/
+.button-form, .button-pickups {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #454545;
+  position: relative;
+  display: inline-block;
+  padding: 0.5rem;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.button-form:before, .button-pickups:before,
+.button-form:after,
+.button-pickups:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-color: #454545;
+  box-sizing: border-box;
+  border-style: solid;
+  width: 1rem;
+  height: 1rem;
+  transition: all 0.3s ease-in-out; }
+
+.button-form:before, .button-pickups:before {
+  top: -6px;
+  left: -6px;
+  border-width: 2px 0 0 2px;
+  z-index: 5; }
+
+
+.button-form:after,
+.button-pickups:after {
+  bottom: -6px;
+  right: -6px;
+  border-width: 0 2px 2px 0; }
+
+.button-form:hover:before, .button-pickups:hover:before,
+.button-form:hover:after,
+.button-pickups:hover:after {
+  width: calc(100% + 12px);
+  height: calc(100% + 12px);
+  border-color: #fff; }
+
+.button-form:hover, .button-pickups:hover {
+  color: #353535;
+  background-color: #fff;
+  border-color: #fff; }
+
+.button-form {
+  color: #1a1b15;
+  background: transparent; }
+
+.button-pickups {
+  color: #c83e4d;
+  background: #ee964b; }
+
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -106,8 +164,9 @@ img {
     filter: drop-shadow(1px 1px 0px black); }
   .footer h3 {
     text-transform: uppercase; }
-  .footer li a {
-    color: #1a1b15; }
+  .footer li a h6 {
+    color: #1a1b15;
+    font-size: 1.6rem; }
   .footer .fab {
     font-size: 4rem; }
   .footer .fa-instagram {
@@ -149,9 +208,6 @@ img {
   background-color: #c83e4d; }
   .form textarea {
     height: 20rem; }
-  .form button {
-    height: 4rem;
-    background-color: #59a09c; }
 
 .map iframe {
   border: 1px solid #a09c9c;
@@ -161,10 +217,7 @@ img {
 
 @media (min-width: 992px) {
   .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://i.ibb.co/CmGMSNF/hero.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://i.ibb.co/CmGMSNF/hero.jpg) no-repeat center/cover;
     height: 50rem;
     position: relative; } }
 
@@ -292,7 +345,7 @@ img {
     background-color: #615f5f; }
     .dark-mode .footer li {
       color: #ffffff; }
-      .dark-mode .footer li a {
+      .dark-mode .footer li a h6 {
         color: #ffffff; }
   .dark-mode .information li {
     color: #ffffff; }

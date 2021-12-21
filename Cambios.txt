@@ -1,0 +1,11 @@
+Agregue descripcion, keywords y tag robot a todos los html del proyecto.
+
+Cambie los titulos de todos los html.
+
+Agregue la tag H6 a los enlaces del footer.
+
+
+Sass:
+Declare un map en variables.scss y lo utilice en footer.scss con un each.
+
+Utilice extend en pickups.html y en contact.html, codeado en mixins.scss.

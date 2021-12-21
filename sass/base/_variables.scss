@@ -1,8 +1,8 @@
-// Fuentes
+// FONTS
 @import url("http://fonts.cdnfonts.com/css/sf-pro-display");
 $fuente_principal: "SF Pro Display", sans-serif;
 
-// Colores
+// COLORS
 $black: #1a1b15;
 $white: #ffffff;
 $gray: #615f5f;
@@ -13,6 +13,13 @@ $prussian-blue: #1d2d44;
 $medium-turquoise: #59a09c;
 $primary: #ee964b;
 
-// bootstrap
+// BOOTSTRAP
 $primary: $primary;
 $secondary: $secondary;
+
+// MAPS
+$networks: (
+  instagram: rgba(221, 15, 77, 0.644),
+  twitter: $medium-turquoise,
+  facebook: $prussian-blue,
+);

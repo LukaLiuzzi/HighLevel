@@ -13,21 +13,18 @@
     text-transform: uppercase;
   }
 
-  li a {
+  li a h6 {
     color: $black;
+    font-size: 1.6rem;
   }
 
   .fab {
     font-size: 4rem;
   }
 
-  .fa-instagram {
-    color: rgba(221, 15, 77, 0.644);
-  }
-  .fa-twitter {
-    color: $medium-turquoise;
-  }
-  .fa-facebook {
-    color: $prussian-blue;
+  @each $network, $color in $networks {
+    .fa-#{$network} {
+      color: $color;
+    }
   }
 }
