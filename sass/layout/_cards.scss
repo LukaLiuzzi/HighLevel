@@ -23,11 +23,6 @@
 .cars .card .car-img {
   height: 280px;
 }
-.pickups .card .pickup-img {
-  @include big {
-    height: 340px !important;
-  }
-}
 
 .card-img-catalogue {
   position: relative;

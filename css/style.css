@@ -140,10 +140,6 @@ img {
 .cars .card .car-img {
   height: 280px; }
 
-@media (min-width: 1200px) {
-  .pickups .card .pickup-img {
-    height: 340px !important; } }
-
 .card-img-catalogue {
   position: relative; }
   .card-img-catalogue img {
@@ -249,10 +245,6 @@ img {
     color: #ee964b;
     max-width: 50rem;
     display: block; } }
-
-@media (min-width: 992px) {
-  .hero .no-bg {
-    background: none !important; } }
 
 @media (min-width: 992px) {
   .hero .nav-link {

@@ -20,12 +20,6 @@
       display: block;
     }
   }
-
-  .no-bg {
-    @include tablet-desktop {
-      background: none !important;
-    }
-  }
   .nav-link {
     @include tablet-desktop {
       color: $primary;
