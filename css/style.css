@@ -172,6 +172,9 @@ img {
     font-size: 2rem;
     text-align: center; }
 
+.information li {
+  font-size: 2rem; }
+
 .form {
   max-width: 50rem;
   margin: 0 auto;
