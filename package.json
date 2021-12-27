@@ -1,16 +1,13 @@
 {
-  "name": "proyecto-final",
+  "name": "high-level",
   "version": "1.0.0",
-  "description": "Este es mi proyecto final del curso de desarrollo web de Coder House.",
+  "description": "High Level ofrece un servicio premium de alquiler de autos y camionetas, con atención total tanto para individuales como para empresas",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build-bootstrap": "node-sass --include-path scss sass/bootstrap/bootstrap.scss css/bootstrap.css",
     "watch-bootstrap": "nodemon -e scss -x \"npm run build-bootstrap\"",
     "build-main": "node-sass --include-path scss sass/main.scss css/style.css",
     "watch-main": "nodemon -e scss -x \"npm run build-main\""
-
-
   },
   "repository": {
     "type": "git",
