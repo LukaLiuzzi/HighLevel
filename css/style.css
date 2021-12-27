@@ -1,4 +1,4 @@
-@import url("http://fonts.cdnfonts.com/css/sf-pro-display");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
 /** Media Queries **/
 html {
   font-size: 62.5%;
@@ -20,7 +20,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  font-family: "SF Pro Display", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
   background-color: #fffdd4; }
 
@@ -60,7 +60,8 @@ img {
   .hero .hero-text {
     display: none; }
   .hero .nav-link {
-    color: #1a1b15; }
+    color: #1a1b15;
+    font-size: 2rem; }
 
 .header-mobile {
   background-color: #ee964b; }
@@ -106,7 +107,7 @@ img {
     filter: drop-shadow(1px 1px 0px black); }
   .footer h3 {
     text-transform: uppercase; }
-  .footer li a h6 {
+  .footer li h6 a {
     color: #1a1b15;
     font-size: 1.6rem; }
   .footer .fab {
@@ -364,7 +365,7 @@ img {
     background-color: #615f5f; }
     .dark-mode .footer li {
       color: #ffffff; }
-      .dark-mode .footer li a h6 {
+      .dark-mode .footer li h6 a {
         color: #ffffff; }
   .dark-mode .information li {
     color: #ffffff; }
