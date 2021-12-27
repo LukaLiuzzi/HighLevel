@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LukaLiuzzi/proyectofinal.git"
+    "url": "git+https://github.com/LukaLiuzzi/HighLevel.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LukaLiuzzi/proyectofinal/issues"
+    "url": "https://github.com/LukaLiuzzi/HighLevel/issues"
   },
-  "homepage": "https://github.com/LukaLiuzzi/proyectofinal#readme",
+  "homepage": "https://github.com/LukaLiuzzi/HighLevel#readme",
   "devDependencies": {
     "node-sass": "^7.0.0",
     "nodemon": "^2.0.15"
