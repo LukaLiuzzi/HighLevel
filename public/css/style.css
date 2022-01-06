@@ -240,7 +240,7 @@ img {
 
 @media (min-width: 992px) {
   .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../../public/img/hero.jpg) no-repeat center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/hero.jpg) no-repeat center/cover;
     height: 50rem;
     position: relative; } }
 
