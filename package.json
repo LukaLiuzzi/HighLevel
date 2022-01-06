@@ -4,9 +4,9 @@
   "description": "High Level ofrece un servicio premium de alquiler de autos y camionetas, con atención total tanto para individuales como para empresas",
   "main": "index.js",
   "scripts": {
-    "build-bootstrap": "node-sass --include-path scss sass/bootstrap/bootstrap.scss css/bootstrap.css",
+    "build-bootstrap": "node-sass --include-path scss src/sass/bootstrap/bootstrap.scss public/css/bootstrap.css",
     "watch-bootstrap": "nodemon -e scss -x \"npm run build-bootstrap\"",
-    "build-main": "node-sass --include-path scss sass/main.scss css/style.css",
+    "build-main": "node-sass --include-path scss src/sass/main.scss public/css/style.css",
     "watch-main": "nodemon -e scss -x \"npm run build-main\""
   },
   "repository": {

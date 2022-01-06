@@ -4,6 +4,9 @@
   h2 {
     color: lighten($medium-turquoise, 25);
   }
+  .card h3, footer h3 {
+    color: black;
+  }
   p {
     color: $white;
     a {
